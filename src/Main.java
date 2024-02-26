@@ -63,12 +63,12 @@ public class Main {
                             break;
                         case 4:
 
-                            System.out.println("First Item: "+list.getHead());
+                            System.out.println("First Item: "+list.getHead().value);
 
                             break;
                         case 5:
 
-                            System.out.println("First Item: "+list.getTail());
+                            System.out.println("Last Item: "+list.getTail().value);
 
                             break;
                         case 6:
@@ -114,6 +114,7 @@ public class Main {
 
                             break;
                         case 10:
+                            running = false;
                             break;
                     }
 
